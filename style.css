@@ -46,7 +46,6 @@
 
 .content-container {
     max-width: 100%;
-    /* Adjusted to avoid overlap with navbar */
 }
 
 .search-bar {
@@ -128,9 +127,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Ensures the image covers the entire container without distortion */
     position: absolute;
-    /* Make the image fill the container */
     top: 0;
     left: 0;
 }
@@ -231,13 +228,13 @@ background-color: rgb(238, 235, 235);
     margin-bottom: 20px;
 }
 .btn-lg {
-    background-color: #5ab9c5; /* Ljusblå bakgrundsfärg */
-    font-family: Arial, Helvetica, sans-serif; /* Sans-serif typsnitt */
-    font-weight: bold; /* Gör texten fet */
-    font-size: medium; /* Sätter textstorleken till medium */
-    color: white; /* Vit text */
-    padding: 15px 20px; /* Inre avstånd runt texten */
-    transition: background-color 0.1s ease; /* Mjuk övergång vid bakgrundsändring */
+    background-color: #5ab9c5; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold; 
+    font-size: medium; 
+    color: white; 
+    padding: 15px 20px;
+    transition: background-color 0.1s ease; 
 }
 
 .btn-lg:hover {
@@ -315,7 +312,7 @@ ul li a:hover {
     right: 50%;
 }
 
-/* Styles for Tablets (Portrait Mode) */
+
 @media (max-width: 768px) {
     .img-container img {
         width: 100%;
@@ -381,7 +378,7 @@ ul li a:hover {
         font-size: 1.5rem;
     }
 
-    /* Adjust padding and margins */
+  
     .second-navbar,
     .search-bar,
     .footer-section,
@@ -401,7 +398,6 @@ ul li a:hover {
     }
 }
 
-/* Styles for Mobile Devices (Portrait Mode) */
 @media (max-width: 576px) {
     .navbar-expand-lg {
         flex-wrap: wrap;
@@ -476,7 +472,6 @@ ul li a:hover {
         right: 0;
     }
 
-    /* Adjust margins and paddings */
     .second-navbar,
     .search-bar,
     .footer-section,
@@ -492,7 +487,6 @@ ul li a:hover {
     .video-container {
         position: relative;
         padding-bottom: 56.25%;
-        /* Aspect ratio 16:9 */
         height: 0;
         overflow: hidden;
         max-width: 100%;
