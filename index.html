@@ -10,9 +10,7 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
 
 </head>
 
@@ -25,33 +23,33 @@
                 <img src="/images/logo.svg" alt="Logo" width="180" height="25" class="logo-img">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" tabindex="1">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav custom-navbar">
                     <li class="nav-item ml-auto">
-                        <a class="btn btn-white me-2" tabindex="1" href="#">Bli medlem</a>
+                        <a class="btn btn-white me-2" href="#" tabindex="2">Bli medlem</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="btn btn-red me-2" href="#">
+                        <a class="btn btn-red me-2" href="https://minasidor.kommunal.se" tabindex="3">
                             <i class="fas fa-user"></i> Mina sidor
                         </a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn btn-red" id="search-icon" href="#">
+                        <a class="btn btn-red" id="search-icon" href="#" tabindex="4">
                             <i class="fas fa-search"></i>
                         </a>
                     </li>
                     <li class="nav-item" id="menu-icon-nav">
-                        <a class="btn btn-red" id="menu-icon" href="#">
+                        <a class="btn btn-red" id="menu-icon" href="#" tabindex="5">
                             <i class="fas fa-bars"></i> Meny
                         </a>
                     </li>
                     <li class="nav-item" id="close-menu-btn" style="display:none;">
-                        <a class="btn btn-red" id="close-menu" href="#">
+                        <a class="btn btn-red" id="close-menu" href="#" tabindex="6">
                             <i class="fas fa-times"></i> Stäng
                         </a>
                     </li>
@@ -63,22 +61,22 @@
     <!-- Second Navbar (Initially hidden) -->
     <nav class="second-navbar" id="second-navbar">
         <div class="container second-navbar-container">
-            <a href="#">A-kassan</a>
-            <a href="#">Medlemskapet</a>
-            <a href="#">Stöd på jobbet</a>
-            <a href="#">Om Kommunal</a>
-            <a href="#">Förtroendevald</a>
-            <a href="#">Utbildning</a>
-            <a href="#">Kontakt</a>
+            <a href="#" tabindex="7">A-kassan</a>
+            <a href="#" tabindex="8">Medlemskapet</a>
+            <a href="#" tabindex="9">Stöd på jobbet</a>
+            <a href="#" tabindex="10">Om Kommunal</a>
+            <a href="#" tabindex="11">Förtroendevald</a>
+            <a href="#" tabindex="12">Utbildning</a>
+            <a href="#" tabindex="13">Kontakt</a>
         </div>
     </nav>
 
     <!-- Search Bar (Initially Hidden) -->
     <div class="container-fluid search-bar" id="search-bar">
         <form method="get" class="position-relative">
-            <input type="text" class="form-control"
-                placeholder="Sök efter nyheter, sektioner, eller frågor och svar...">
-            <button class="btn btn-light" type="submit">
+            <input type="text" class="form-control" placeholder="Sök efter nyheter, sektioner, eller frågor och svar..."
+                tabindex="14">
+            <button class="btn btn-light" type="submit" tabindex="15">
                 <i class="fas fa-search"></i>
             </button>
         </form>
@@ -89,7 +87,7 @@
         <div class="container content-container">
             <div class="row">
                 <div class="col-md-6 img-container">
-                    <img src="/images/medlemskapet_medlemmar.webp" alt=" Kommunal Team">
+                    <img src="/images/medlemskapet_medlemmar.webp" alt=" Kommunal Team" tabindex="16">
                     <p class="footer-text">Foto: Kommunal</p>
                 </div>
                 <div class="col-md-6 hero-coler">
@@ -97,7 +95,7 @@
                     <p class="hero-subtext">Schyssta villkor, mer trygghet och bättre löneutveckling. Som medlem i
                         Kommunal får du expertråd kring allt som rör ditt yrke och hjälp om något händer på jobbet. Just
                         nu får nya medlemmar två månader för totalt 80 kr!</p>
-                    <a href="#" class="btn btn-member">Bli medlem</a>
+                    <a href="#" class="btn btn-member" tabindex="17">Bli medlem</a>
                 </div>
             </div>
         </div>
@@ -111,7 +109,7 @@
                 <!-- Card 1 -->
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="/images/Lonekartan.webp" class="card-img-top" alt="Lönekartan">
+                        <img src="/images/Lonekartan.webp" class="card-img-top" alt="Lönekartan" tabindex="18">
                         <div class="card-body">
                             <h3 class="card-title">Nya tjänsten Lönekartan ger dig unik lönekoll!</h3>
                             <p class="card-text">Lönekartan är ett nytt verktyg som hjälper dig som är anställd i en
@@ -123,7 +121,8 @@
                 <!-- Card 2 -->
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="/images/piktogram.webp" class="card-img-top" alt="Rabatt för nya medlemmar">
+                        <img src="/images/piktogram.webp" class="card-img-top" alt="Rabatt för nya medlemmar"
+                            tabindex="19">
                         <div class="card-body">
                             <h3 class="card-title">Rabatt för nya medlemmar</h3>
                             <p class="card-text">Allt går som bekant inte alltid som smort. Då är det skönt att vara med
@@ -135,7 +134,7 @@
                 <!-- Card 3 -->
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="/images/sca36534_ny.webp" class="card-img-top" alt="Värva din kollega">
+                        <img src="/images/sca36534_ny.webp" class="card-img-top" alt="Värva din kollega" tabindex="20">
                         <div class="card-body">
                             <h3 class="card-title">Värva din kollega – få ett riktigt bra presentkort</h3>
                             <p class="card-text">Du som är medlem är avgörande för att vi ska fortsätta växa och kunna
@@ -153,7 +152,7 @@
             <!-- Icon at the top -->
             <div class="faq-image-section">
                 <div class="image-section">
-                    <img src="/images/fragetecken.svg" alt="Example Image" class="img-fluid">
+                    <img src="/images/fragetecken.svg" alt="Example Image" class="img-fluid" tabindex="21">
                 </div>
             </div>
 
@@ -163,16 +162,16 @@
             <!-- Buttons for the frequently asked questions -->
             <div class="d-flex flex-wrap justify-content-center">
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info">Vad räknas som storhelg?</a>
+                    <a href="#" class="btn btn-info" tabindex="22">Vad räknas som storhelg?</a>
                 </div>
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info">Vad ingår i medlemskapet?</a>
+                    <a href="#" class="btn btn-info" tabindex="23">Vad ingår i medlemskapet?</a>
                 </div>
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info">Semester</a>
+                    <a href="#" class="btn btn-info" tabindex="24">Semester</a>
                 </div>
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info">Ledighet vid anhörigs bortgång</a>
+                    <a href="#" class="btn btn-info" tabindex="25">Ledighet vid anhörigs bortgång</a>
                 </div>
                 <div class="mb-3 me-3">
                     <a href="#" class="btn btn-info">Kommunals A-kassa</a>
@@ -186,6 +185,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Video Section -->
     <section class="video-section py-5">
         <div class="container text-center">
             <h2 class="mb-4">Titta på vår video</h2>
@@ -199,6 +200,7 @@
             </div>
         </div>
     </section>
+
     <!-- Contact Section -->
     <section class="contact-section py-5">
         <div class="container text-center">
@@ -219,8 +221,6 @@
             </div>
         </div>
     </section>
-
-
 
     <!-- Footer Section -->
     <footer class="footer-section py-5">
@@ -271,6 +271,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 
 </body>
 
