@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Kommunal - Facklig organisation för anställda inom offentlig sektor. Starkare tillsammans! Bli medlem för bättre villkor och trygghet på jobbet." />
+    <meta name="keywords" content="Kommunal, fackförbund, medlemskap, lönekoll, A-kassa, trygghet, arbetsliv" />
+    <meta name="author" content="Svenska Kommunalarbetareförbundet" />
+    <meta http-equiv="Content-Language" content="sv" />
+    <meta property="og:title" content="Kommunal - Starkare tillsammans!" />
+    <meta property="og:description"
+        content="Schyssta villkor och bättre löneutveckling. Bli medlem i Kommunal för bättre trygghet och stöd på jobbet." />
+    <meta property="og:image" content="https://www.dindomän.se/images/kommunal_hero.jpg" />
+    <meta property="og:url" content="https://www.dindomän.se/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kommunal - Starkare tillsammans!" />
+    <meta name="twitter:description"
+        content="Bli medlem i Kommunal för att få bättre villkor och trygghet på jobbet." />
+    <meta name="twitter:image" content="https://www.dindomän.se/images/kommunal_hero.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title>Kommunal Landing Page</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
 </head>
 
 <body>
-
     <!-- Main Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/images/logo.svg" alt="Logo" width="180" height="25" class="logo-img">
+                <img src="./images/logo.svg" alt="Logo" width="180" height="25" class="logo-img" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" tabindex="1">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav custom-navbar">
                     <li class="nav-item ml-auto">
-                        <a class="btn btn-white me-2" href="#" tabindex="2">Bli medlem</a>
+                        <a class="btn btn-white me-2" href="#">Bli medlem</a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="btn btn-red me-2" href="https://minasidor.kommunal.se" tabindex="3">
+                        <a class="btn btn-red me-2" href="https://minasidor.kommunal.se">
                             <i class="fas fa-user"></i> Mina sidor
                         </a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn btn-red" id="search-icon" href="#" tabindex="4">
+                        <a class="btn btn-red" id="search-icon" href="#">
                             <i class="fas fa-search"></i>
                         </a>
                     </li>
                     <li class="nav-item" id="menu-icon-nav">
-                        <a class="btn btn-red" id="menu-icon" href="#" tabindex="5">
+                        <a class="btn btn-red" id="menu-icon" href="#">
                             <i class="fas fa-bars"></i> Meny
                         </a>
                     </li>
-                    <li class="nav-item" id="close-menu-btn" style="display:none;">
-                        <a class="btn btn-red" id="close-menu" href="#" tabindex="6">
+                    <li class="nav-item" id="close-menu-btn" style="display: none">
+                        <a class="btn btn-red" id="close-menu" href="#">
                             <i class="fas fa-times"></i> Stäng
                         </a>
                     </li>
@@ -61,22 +77,22 @@
     <!-- Second Navbar (Initially hidden) -->
     <nav class="second-navbar" id="second-navbar">
         <div class="container second-navbar-container">
-            <a href="#" tabindex="7">A-kassan</a>
-            <a href="#" tabindex="8">Medlemskapet</a>
-            <a href="#" tabindex="9">Stöd på jobbet</a>
-            <a href="#" tabindex="10">Om Kommunal</a>
-            <a href="#" tabindex="11">Förtroendevald</a>
-            <a href="#" tabindex="12">Utbildning</a>
-            <a href="#" tabindex="13">Kontakt</a>
+            <a href="#">A-kassan</a>
+            <a href="#">Medlemskapet</a>
+            <a href="#">Stöd på jobbet</a>
+            <a href="#">Om Kommunal</a>
+            <a href="#">Förtroendevald</a>
+            <a href="#">Utbildning</a>
+            <a href="#">Kontakt</a>
         </div>
     </nav>
 
     <!-- Search Bar (Initially Hidden) -->
     <div class="container-fluid search-bar" id="search-bar">
         <form method="get" class="position-relative">
-            <input type="text" class="form-control" placeholder="Sök efter nyheter, sektioner, eller frågor och svar..."
-                tabindex="14">
-            <button class="btn btn-light" type="submit" tabindex="15">
+            <input type="text" class="form-control"
+                placeholder="Sök efter nyheter, sektioner, eller frågor och svar..." />
+            <button class="btn btn-light" type="submit">
                 <i class="fas fa-search"></i>
             </button>
         </form>
@@ -87,15 +103,18 @@
         <div class="container content-container">
             <div class="row">
                 <div class="col-md-6 img-container">
-                    <img src="/images/medlemskapet_medlemmar.webp" alt=" Kommunal Team" tabindex="16">
+                    <img src="/images/medlemskapet_medlemmar.webp" alt=" Kommunal Team" />
                     <p class="footer-text">Foto: Kommunal</p>
                 </div>
                 <div class="col-md-6 hero-coler">
                     <h1 class="hero-text">Starkare tillsammans!</h1>
-                    <p class="hero-subtext">Schyssta villkor, mer trygghet och bättre löneutveckling. Som medlem i
-                        Kommunal får du expertråd kring allt som rör ditt yrke och hjälp om något händer på jobbet. Just
-                        nu får nya medlemmar två månader för totalt 80 kr!</p>
-                    <a href="#" class="btn btn-member" tabindex="17">Bli medlem</a>
+                    <p class="hero-subtext">
+                        Schyssta villkor, mer trygghet och bättre löneutveckling. Som
+                        medlem i Kommunal får du expertråd kring allt som rör ditt yrke
+                        och hjälp om något händer på jobbet. Just nu får nya medlemmar två
+                        månader för totalt 80 kr!
+                    </p>
+                    <a href="#" class="btn btn-member">Bli medlem</a>
                 </div>
             </div>
         </div>
@@ -109,11 +128,15 @@
                 <!-- Card 1 -->
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="/images/Lonekartan.webp" class="card-img-top" alt="Lönekartan" tabindex="18">
+                        <img src="/images/Lonekartan.webp" class="card-img-top" alt="Lönekartan" />
                         <div class="card-body">
-                            <h3 class="card-title">Nya tjänsten Lönekartan ger dig unik lönekoll!</h3>
-                            <p class="card-text">Lönekartan är ett nytt verktyg som hjälper dig som är anställd i en
-                                kommun eller region att jämföra löner inom ditt...</p>
+                            <h3 class="card-title">
+                                Nya tjänsten Lönekartan ger dig unik lönekoll!
+                            </h3>
+                            <p class="card-text">
+                                Lönekartan är ett nytt verktyg som hjälper dig som är anställd
+                                i en kommun eller region att jämföra löner inom ditt...
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -121,12 +144,13 @@
                 <!-- Card 2 -->
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="/images/piktogram.webp" class="card-img-top" alt="Rabatt för nya medlemmar"
-                            tabindex="19">
+                        <img src="/images/piktogram.webp" class="card-img-top" alt="Rabatt för nya medlemmar" />
                         <div class="card-body">
                             <h3 class="card-title">Rabatt för nya medlemmar</h3>
-                            <p class="card-text">Allt går som bekant inte alltid som smort. Då är det skönt att vara med
-                                både i facket och A-kassan. Att vara...</p>
+                            <p class="card-text">
+                                Allt går som bekant inte alltid som smort. Då är det skönt att
+                                vara med både i facket och A-kassan. Att vara...
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -134,11 +158,15 @@
                 <!-- Card 3 -->
                 <div class="col-md-4">
                     <div class="card h-100">
-                        <img src="/images/sca36534_ny.webp" class="card-img-top" alt="Värva din kollega" tabindex="20">
+                        <img src="/images/sca36534_ny.webp" class="card-img-top" alt="Värva din kollega" />
                         <div class="card-body">
-                            <h3 class="card-title">Värva din kollega – få ett riktigt bra presentkort</h3>
-                            <p class="card-text">Du som är medlem är avgörande för att vi ska fortsätta växa och kunna
-                                göra skillnad på riktigt. Vi bjuder på första...</p>
+                            <h3 class="card-title">
+                                Värva din kollega – få ett riktigt bra presentkort
+                            </h3>
+                            <p class="card-text">
+                                Du som är medlem är avgörande för att vi ska fortsätta växa
+                                och kunna göra skillnad på riktigt. Vi bjuder på första...
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +180,7 @@
             <!-- Icon at the top -->
             <div class="faq-image-section">
                 <div class="image-section">
-                    <img src="/images/fragetecken.svg" alt="Example Image" class="img-fluid" tabindex="21">
+                    <img src="/images/fragetecken.svg" alt="Example Image" class="img-fluid" />
                 </div>
             </div>
 
@@ -162,16 +190,16 @@
             <!-- Buttons for the frequently asked questions -->
             <div class="d-flex flex-wrap justify-content-center">
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info" tabindex="22">Vad räknas som storhelg?</a>
+                    <a href="#" class="btn btn-info">Vad räknas som storhelg?</a>
                 </div>
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info" tabindex="23">Vad ingår i medlemskapet?</a>
+                    <a href="#" class="btn btn-info">Vad ingår i medlemskapet?</a>
                 </div>
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info" tabindex="24">Semester</a>
+                    <a href="#" class="btn btn-info">Semester</a>
                 </div>
                 <div class="mb-3 me-3">
-                    <a href="#" class="btn btn-info" tabindex="25">Ledighet vid anhörigs bortgång</a>
+                    <a href="#" class="btn btn-info">Ledighet vid anhörigs bortgång</a>
                 </div>
                 <div class="mb-3 me-3">
                     <a href="#" class="btn btn-info">Kommunals A-kassa</a>
@@ -207,14 +235,16 @@
             <div class="row">
                 <!-- Icon Section -->
                 <div class="col-md-6">
-                    <img class="image-section_tel" src="/images/telefon.svg" alt="Phone Icon">
+                    <img class="image-section_tel" src="/images/telefon.svg" alt="Phone Icon" />
                 </div>
 
                 <!-- Contact Info Section -->
                 <div class="col-md-6">
                     <h2 class="contact-title">Kontakta Kommunal</h2>
-                    <p>Har du frågor om medlemskap eller behöver du hjälp i något som rör ditt arbetsliv? Ring, så
-                        hjälper vi dig!</p>
+                    <p>
+                        Har du frågor om medlemskap eller behöver du hjälp i något som rör
+                        ditt arbetsliv? Ring, så hjälper vi dig!
+                    </p>
                     <h2 class="contact-phone">010-442 70 00</h2>
                     <a href="#" class="btn btn-info btn-lg">Öppettider och andra kontaktvägar</a>
                 </div>
@@ -259,20 +289,36 @@
                 <!-- Right Column with Social Media and Other Info -->
                 <div class="col-md-4 text-center">
                     <div class="social-icons mb-3">
-                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-                        <a href="#"><i class="fab fa-tiktok fa-2x"></i></a>
+                        <a href="https://facebook.com" aria-label="Facebook" title="Facebook" rel="noopener noreferrer"
+                            target="_blank">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://linkedin.com" aria-label="LinkedIn" title="LinkedIn" rel="noopener noreferrer"
+                            target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://instagram.com" aria-label="Instagram" title="Instagram"
+                            rel="noopener noreferrer" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://youtube.com" aria-label="YouTube" title="YouTube" rel="noopener noreferrer"
+                            target="_blank">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                        <a href="https://tiktok.com" aria-label="TikTok" title="TikTok" rel="noopener noreferrer"
+                            target="_blank">
+                            <i class="fab fa-tiktok fa-2x"></i>
+                        </a>
                     </div>
-                    <p>Webbplatsen tillhandahålls av Svenska Kommunalarbetareförbundet.</p>
+                    <p>
+                        Webbplatsen tillhandahålls av Svenska Kommunalarbetareförbundet.
+                    </p>
                     <p>Ansvarig utgivare är Christian Scharf.</p>
                 </div>
             </div>
         </div>
     </footer>
     <script src="script.js"></script>
-
 </body>
 
 </html>
