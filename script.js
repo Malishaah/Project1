@@ -1,4 +1,4 @@
-document.getElementById('search-icon').addEventListener('click', function (event) {
+document.getElementById('search-icon').addEventListener('click', function (event) { 
     event.preventDefault();
     const searchBar = document.getElementById('search-bar');
     searchBar.style.display = (searchBar.style.display === 'block') ? 'none' : 'block';
